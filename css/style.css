@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    max-width: 900px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -76,7 +76,7 @@ main .first-row,
 .second-row{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    justify-content: space-between;
 
     margin-bottom: 80px;
 }
@@ -135,4 +135,42 @@ main .green-badge{
     color: white;
     background-color: green;
     border: 1px solid green;
+}
+
+
+.green-badge.odd{
+    left: 0;
+}
+
+main .heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+
+    height: 50px;
+    width: 50px;
+
+    font-size: 2.5em;
+    text-align: center;
+    border: 1px solid white;
+    padding: 2px 5px;
+    background-color: white;
+}
+
+.img-change{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.img:hover+.img-change{
+    display: block;
+}
+
+
+.heart:hover{
+    color: red;
+
 }

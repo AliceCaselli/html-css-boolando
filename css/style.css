@@ -29,6 +29,7 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 /* nav list  */
@@ -51,9 +52,13 @@ nav{
 .icons{
     display: flex;
     flex-direction: row;
+    gap: 5px;
 }
 
-/* .icons img{
+.icons img{
     height: 20px;
-    color: #e8e7e7;
-} */
+}
+
+
+/* main --------------------------- */
+
